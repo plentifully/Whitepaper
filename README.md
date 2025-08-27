@@ -19,10 +19,3 @@ https://plentifully.github.io/whitepaper/plentifully-whitepaper.pdf
 ```
 https://plentifully.github.io/whitepaper/
 ```
-
-> If your org or repo name differs, adjust the URLs accordingly:
-> `https://<org-or-user>.github.io/<repo-name>/plentifully-whitepaper.pdf`
-
-## Optional
-- Add a custom domain in **Settings → Pages** (creates a `CNAME` file in the repo).
-- If you prefer serving only the raw PDF, you can omit `index.html` and link directly to the PDF path above.
