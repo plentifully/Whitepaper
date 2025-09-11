@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plentifully Whitepaper (v1.3)</title>
+  <meta name="description" content="Plentifully Whitepaper full-view PDF (v1.3)">
+  <meta property="og:title" content="Plentifully Whitepaper (v1.3)" />
+  <meta property="og:description" content="Full whitepaper PDF (embedded). Open directly or view inline." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://plentifully.github.io/whitepaper/" />
+  <meta name="twitter:card" content="summary" />
+  <style>
+    html, body { margin:0; padding:0; height:100%; background:#111; color:#fff; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+    header { position:fixed; top:0; left:0; right:0; height:48px; display:flex; align-items:center; justify-content:space-between; padding:0 16px; background:rgba(0,0,0,.6); backdrop-filter: blur(6px); z-index:10; box-sizing:border-box; }
+    header a { color:#fff; text-decoration:none; border:1px solid rgba(255,255,255,.3); padding:6px 10px; border-radius:8px; font-size:14px; }
+    .viewer { position:absolute; top:48px; left:0; right:0; bottom:0; height:calc(100vh - 48px); }
+    .fallback { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; padding:24px; text-align:center; background:#111; }
+    .fallback a { color:#fff; }
+  </style>
+</head>
+<body>
+  <header>
+    <div>Plentifully Whitepaper (v1.3)</div>
+    <nav>
+      <a href="plentifully-whitepaper-v1.3.pdf" target="_blank" rel="noopener">Open PDF Directly</a>
+    </nav>
+  </header>
+
+  <iframe class="viewer" src="plentifully-whitepaper-v1.3.pdf#toolbar=1&navpanes=0&scrollbar=1&view=FitH" title="Plentifully Whitepaper PDF"></iframe>
+  <div class="fallback">
+    <p>Your browser blocked the inline PDF. <a href="plentifully-whitepaper-v1.3.pdf" target="_blank" rel="noopener">Open the PDF directly</a>.</p>
+  </div>
+</body>
+</html>
